@@ -23,7 +23,8 @@
     "preview": "vite preview",
     "test:unit": "vitest",
     "build-only": "vite build",
-    "type-check": "vue-tsc --build"
+    "type-check": "vue-tsc --build",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@vueuse/core": "^13.0.0",
@@ -42,7 +43,7 @@
     "@vue/tsconfig": "^0.7.0",
     "bumpp": "^10.1.0",
     "consola": "^3.4.2",
-    "husky": "^9.1.7",
+    "husky": "^8.0.0",
     "jsdom": "^26.0.0",
     "lint-staged": "^15.5.0",
     "npm-run-all2": "^7.0.2",
