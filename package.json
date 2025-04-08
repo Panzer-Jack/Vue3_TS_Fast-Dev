@@ -32,27 +32,33 @@
     "vue-router": "^4.5.0"
   },
   "devDependencies": {
-    "bumpp": "^10.1.0",
-    "consola": "^3.4.2",
-    "husky": "^9.1.7",
-    "lint-staged": "^15.5.0",
-    "unplugin-auto-import": "^19.1.2",
-    "unplugin-vue-components": "^28.4.1",
-    "typedoc": "^0.28.2",
-    "unocss": "66.1.0-beta.10",
     "@antfu/eslint-config": "^4.11.0",
     "@tsconfig/node22": "^22.0.1",
     "@types/jsdom": "^21.1.7",
     "@types/node": "^22.14.0",
+    "@unocss/eslint-plugin": "66.1.0-beta.10",
     "@vitejs/plugin-vue": "^5.2.3",
     "@vue/test-utils": "^2.4.6",
     "@vue/tsconfig": "^0.7.0",
+    "bumpp": "^10.1.0",
+    "consola": "^3.4.2",
+    "husky": "^9.1.7",
     "jsdom": "^26.0.0",
+    "lint-staged": "^15.5.0",
     "npm-run-all2": "^7.0.2",
+    "typedoc": "^0.28.2",
     "typescript": "~5.8.0",
+    "unocss": "66.1.0-beta.10",
+    "unplugin-auto-import": "^19.1.2",
+    "unplugin-vue-components": "^28.4.1",
     "vite": "^6.2.4",
     "vite-plugin-vue-devtools": "^7.7.2",
     "vitest": "^3.1.1",
     "vue-tsc": "^2.2.8"
+  },
+  "lint-staged": {
+    "*.{js,ts,vue}": [
+      "eslint --fix"
+    ]
   }
 }
